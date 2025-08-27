@@ -54,7 +54,7 @@ function fifthTransformation(valueToBeAdded){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             let addValue=valueToBeAdded+10;
-            output.textContent=`Result: ${addValue}`;
+            output.textContent=`Final Result: ${addValue}`;
             // console.log(addValue)
             resolve(addValue);
            
